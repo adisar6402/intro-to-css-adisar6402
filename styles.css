@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* Reset some default styling for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a global font and background color */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50; /* Dark Green */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 4px solid #388E3C; /* Slightly darker green */
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 20px); /* Adjust for padding and border */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 80px; /* Set a fixed height for the textarea */
+}
+
+/* Button styling */
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Adjust padding */
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    position: fixed; /* Make the button fixed */
+    bottom: 20px; /* Space from the bottom */
+    right: 20px; /* Space from the right */
+    z-index: 1000; /* Ensure it stays above other content */
+}    
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px; /* Reduced padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em; /* Smaller font size */
+}
+
+footer p {
+    margin: 0;
+
+    font-size: 0.8em;
+}
